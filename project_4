@@ -1,0 +1,17 @@
+# include <stdio.h>
+
+main(void)
+
+{
+
+    int fahrenheit;
+    double celcius;
+    
+    printf("enter temperature in fahrenheit");
+    scanf("%d",&fahrenheit);
+
+    celcius =( 5/9)*(fahrenheit - 32);
+
+   printf("temperature in celcius is %.3f DEGREE \n);
+}
+
